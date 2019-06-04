@@ -1,0 +1,23 @@
+ssh-keygen -t rsa -b 4096 -C "rpratik92@yahoo.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+
+#Now add the id_ras.pub file content in git-setteing-ssh and gpg keys
+
+-----------------------------------------------------------------------------
+git init
+git add .
+git commit -m " "
+git remote add origin https://github.com/prateekrastogi92/python-basic-scripts.git
+git push origin master
+git push -f origin master
+----------------------------------------------------------------------------
+for 2FA
+create a personal access token and use it as password
+or else
+use the ssh way
+---------------------------------------------------------------------------
+multiple origin can be added. origin is the default name provieed by git.
+--------------------------------------------------------------------------
+git pull origin master
+-------------------------------------------------------------------------
