@@ -21,3 +21,6 @@ multiple origin can be added. origin is the default name provieed by git.
 --------------------------------------------------------------------------
 git pull origin master
 -------------------------------------------------------------------------
+git branch <branch_name>
+git checkout <branch_name>
+-------------------------------------------------------------------------
